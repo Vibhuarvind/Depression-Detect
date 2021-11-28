@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/static/CSS/style.css">
+    <title>Interview Simulator</title>
+
+  </head>
+  <body text-align="justify">
+    <a href="/">
+      <img src = "/static/CSS/images/head.png" width="100%">
+    </a>
+    <br>
+
+  {% block body %}
+
+<br>
+
+<div style="width:70%; text-align:justify; display:inline-block;">
+
+  <h2 style="font-size: 1em"> What is this platform ? </h2>
+
+  <br>
+
+  <p> This website serves as a resource for job seekers who want to practise answering interview questions. Our technology allows candidates to respond to common interview questions through video or text. We've created a complicated Deep Learning algorithm that analyses the video or text results and gives the applicant a summary of what our system saw and how they performed in comparison to other candidates. </p>
+<br>
+  <img src = "/static/CSS/images/process.png" width="80%">
+<br>
+
+<br>
+
+  <h2 style="font-size: 1em"> Why this project ? </h2>
+
+  <br>
+
+<p>The project was developed as a university project for the Capstone Project component.I have tried working in several models.I have used Python for the individual model training, Flask for the web interface, and D3.js for visualization purposes. </p>
+
+<br>
+
+<br>
+</div>
+
+
+<br>
+<br>
+<br>
+
+  <form>
+    <input type="button" value="Back" onclick="history.go(-1)">
+  </form>
+
+  <br>
+
+</body>
+
+
+{% endblock %}

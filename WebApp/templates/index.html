@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="/static/CSS/style.css">
+    <title>Interview Simulator</title>
+
+  </head>
+  <body>
+    <a href="/">
+      <img src = "/static/CSS/images/head.png" width="100%">
+    </a>
+    <br>
+
+ {% block body %}
+
+  <!--
+  Video Mode
+  -->
+  <div class="row">
+      <div class="column_home" id="left-col" align="center">
+        <img src = "/static/CSS/images/videov.png" width="100%">
+        <div style="width:70%; text-align:justify; align-content:center; display:inline-block;">
+          <p> Get feedback on how computer understands your facial movements compared to other applicants by using the video simulator.</p>
+          <br>
+          <p> You will receive feedback on your facial emotions including :
+          <ul>
+            <li>Anger</li>
+            <li>Joyful</li>
+            <li>Fearful</li>
+            <li>Depressed</li>
+            <li>Astonished</li>
+            <li>Disgusted</li>
+          </ul>
+          <br>
+          <br>
+        </div>
+      </div>
+
+
+
+
+      <!--
+      Audio Mode
+      -->
+      <div class="column_home" id="left-col" align="center">
+        <img src = "/static/CSS/images/audiov.png" width="100%">
+        <div style="width:70%; text-align:justify; align-content:center; display:inline-block;">
+          <p> Use the audio simulator to see how the algorithm understands your speech emotions in comparison to other candidates.</p>
+          <br>
+          <p> You will receive feedback on your vocal emotions including :
+          <ul>
+            <li>Anger</li>
+            <li>Joyful</li>
+            <li>Fearful</li>
+            <li>Depressed</li>
+            <li>Astonished</li>
+            <li>Disgusted</li>
+          </ul>
+          <br>
+          <br>
+        </div>
+      </div>
+
+  </div>
+
+
+  <div class="row">
+    <!--
+    Video Interview button
+    -->
+     <div class="column_home" id="left-col" align="center">
+         <form action="/video" method="post" align="center">
+         <input type="submit" name="video" value="Video Interview" align="center">
+       </form>
+     </div>
+			
+
+     <!--
+     Audio Interview button
+     -->
+     <div class="column_home" id="left-col" align="center">
+         <form action="/audio_index" method="post" align="center">
+         <input type="submit" name="audio_index" value="Audio Interview" align="center">
+       </form>
+     </div>
+
+</div>
+
+<br>
+<br>
+<br>
+
+      {# Fin du bloc "body" #}
+    {% endblock %}
+
+    <br>
+    <br>
+    <a href="/rules">How it works ?</a>
+    <br>
+    <br>
+
+  </body>
+</html>
