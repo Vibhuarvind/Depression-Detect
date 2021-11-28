@@ -1,4 +1,14 @@
 # Depression-Detect
-At an alarming pace, severe depression is growing. In our new way of coping with depression, one of the big issues is that people get to acknowledge that they are distressed when it's too late. We want to eliminate this and let people understand, if they have any early symptoms of depression.Depression is linked to our activities, our diet, and we don't even consider many other problems. What if we can help people understand the early signs of depression and what they can do to avoid depressive tendencies before any serious depression begins .
 
-For that reason, I have developed my Depression Detection project that enables clinicians to use sensing technologies with a focus on acoustic characteristics to detect depression from spontaneous speech.
+To run the App:
+
+1. Clone the github locally on your desktop.
+2. Go in WebApp folder.
+3. Open cmd.
+4. Create Virtual enviornment using `py -m venv "Your enviornment name" `.
+5. Then go to virtual enviornment directory `cd "Your enviornment name" `.
+6. After that activate your enviornment  `scripts\activate`.
+7. Come back to previous folder `cd..`.
+8. Run `pip install -r requirements.txt`.
+9. Launch `python main.py`
+10. Copy paste the url in browser.
