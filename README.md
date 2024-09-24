@@ -1,6 +1,6 @@
 # Depression-Detect
 
-To run the App:
+## To run the App:
 
 1. Clone the github locally on your desktop.
 2. Go in WebApp folder.
@@ -12,3 +12,6 @@ To run the App:
 8. Run `pip install -r requirements.txt`.
 9. Launch `python main.py`
 10. Copy paste the url in browser.
+
+
+Research : Used facial landmarks and acoustics features
